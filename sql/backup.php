@@ -2,13 +2,13 @@
 //servidor MySql  
 $C_SERVER='localhost';  
 //base de datos  
-$C_BASE_DATOS='mi_proyecto';  
+$C_BASE_DATOS='comercial_appreal';  
 //usuario y contraseña de la base de datos mysql  
 $C_USUARIO='root';  
 $C_CONTRASENA='';  
 //ruta archivo de salida   
 //(el nombre lo componemos con Y_m_d_H_i_s para que sea diferente en cada backup)  
-$C_RUTA_ARCHIVO = 'C:/xampp/htdocs/mi_proyecto/sql/backups/';
+$C_RUTA_ARCHIVO = 'C:/xampp/htdocs/comercialApp/sql/backups/';
 $C_FILE=date("Y_m_d_H_i_s").'.sql';
 //si vamos a comprimirlo  
 $C_COMPRIMIR_MYSQL='true';  
