@@ -106,4 +106,4 @@ Bienvenido Comercial
   </div>
 </div>
 
-<script src="js/CAPP/comercialprueba.js"></script>
+<script src="js/CAPP/ventas.js"></script>
