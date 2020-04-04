@@ -25,9 +25,8 @@ function editar(argument,obj) {
 
  }
  function cargar_reporte() {
-    alert("Funciona Mi Hermano!");
-    onclick="this.innerHTML=Date()
- }
+    alert("Funciona Mi Hermano!"); 
+}
 
  function eliminar(argument,obj) {
      yy=obj.split("-");  // En PHP:   explode
