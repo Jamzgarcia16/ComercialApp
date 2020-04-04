@@ -26,6 +26,7 @@ function editar(argument,obj) {
  }
  function cargar_reporte() {
     alert("Funciona Mi Hermano!");
+    onclick="this.innerHTML=Date()
  }
 
  function eliminar(argument,obj) {
@@ -72,5 +73,8 @@ function editar(argument,obj) {
       $("#come_info_eps").val("").attr("disabled", false);
     });
  }
+
+
+
 
  
