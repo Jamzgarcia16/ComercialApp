@@ -23,6 +23,7 @@ Bienvenido Comercial
     <td>{$fila.come_info_id}</td>
     <td>{$fila.come_info_nombre}</td>
     <td>{$fila.come_info_apellido}</td>
+	<td>{$fila.come_info_eps}</td>
     <td></td>
     <td></td>
     <td></td>
