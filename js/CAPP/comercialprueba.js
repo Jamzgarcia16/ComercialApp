@@ -52,25 +52,7 @@ function editar(argument,obj) {
     
  }
 
- function adicionar() {
-    $("#row_crud").val("");
-    $("#subtitulo_modal").text("Crear Comercial");
-    $("#boton").text("Crear").addClass("btn-warning").removeClass("btn-primary btn-danger");
-    $("#crud").val("c");
-    $("#come_info_id").val("").attr("disabled", true);
 
-    $.post("trae_comercial_info.php",
-    {
-      
-    },
-    function(data, status){ // Callback
-      objson = JSON.parse(data);
-      // alert(data);
-      $("#come_info_id").val("").attr("readonly", true);
-      $("#come_info_nombre").val("").attr("readonly", false);
-      $("#come_info_apellido").val("").attr("readonly", false);
-      $("#come_info_eps").val("").attr("disabled", false);
-    });
  }
 
 

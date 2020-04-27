@@ -1,4 +1,4 @@
-Bienvenido Comercial
+ Bienvenido Comercial
 
 <div><h3>ADMINISTRACIÓN COMERCIALES</h3></div>
 <table id="tabla1" class="display" style="width:100%">
@@ -23,7 +23,7 @@ Bienvenido Comercial
     <td>{$fila.come_info_id}</td>
     <td>{$fila.come_info_nombre}</td>
     <td>{$fila.come_info_apellido}</td>
-	<td>{$fila.come_info_eps}</td>
+	<td>{$fila.eps_id}</td>
     <td></td>
     <td></td>
     <td></td>
@@ -81,8 +81,8 @@ Bienvenido Comercial
             <input type="text" class="form-control" id="come_info_apellido">
         </div>
         <div class="form-group">
-            <label for="come_info_eps">EPS :</label>
-            <input type="text" class="form-control" id="come_info_eps">
+            <label for="eps_id">EPS :</label>
+            <input type="text" class="form-control" id="eps_id">
         </div>
         <div class="form-group">
             <label for="correo_comercial">Correo:</label>

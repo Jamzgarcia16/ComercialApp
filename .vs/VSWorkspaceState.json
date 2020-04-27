@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\js",
+    "\\js\\CAPP",
+    "\\tpl_comercial"
   ],
-  "SelectedNode": "\\Model",
+  "SelectedNode": "\\aplicacion6.php",
   "PreviewInSolutionExplorer": false
 }

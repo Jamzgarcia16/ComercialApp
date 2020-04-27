@@ -9,7 +9,8 @@
         </tr>
     </thead>
     <tbody>
-  {foreach $tabla_perfiles_2 as $fila}
+  
+  
   <tr>
     <td style="text-align: center;">
       <a href="#" title="Editar" data-toggle="modal" data-target="#myModal"  onclick="return editar({$fila.id_perfil},this.parentNode.parentNode.id);"><i class="fa fa-edit" style="font-size:24px; color:blue;"></i></a>
@@ -37,6 +38,7 @@
         </tr>
     </tfoot>
 </table>
+
 <!-- The Modal -->
 <div class="modal fade" id="myModal">
   <div class="modal-dialog modal-dialog-centered">
