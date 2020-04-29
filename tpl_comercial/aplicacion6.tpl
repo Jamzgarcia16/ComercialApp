@@ -300,6 +300,7 @@
 <script type="text/javascript" src="DataTables/datatables.min.js"></script>
 <script type="text/javascript" src="js/dropzone.js"></script>
 
+
 <!-- Custom scripts for all pages-->
 <script src="js/sb-admin.min.js"></script>
 <script type="text/javascript">

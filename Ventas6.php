@@ -3,7 +3,6 @@ defined("TOKEN_L34567") or die("Acceso no autorizado!");
 
 $db = new subase();	# Creamos el objeto $db: instancia de la clase subase
 
-
 //variables entrada
 $n1 = 0;
 $n2 = 0;
@@ -90,7 +89,7 @@ $p1->assign("inverso",$ni);
 // Prestamos
 (float)$capital = 0.0;
 (float)$tasaInteres= 0.0;
-(float)$tiempo = 0.0;
+(int)$tiempo = 0;
 (float)$interes = 0.0;
 (float)$monto = 0.0;
 
@@ -103,13 +102,25 @@ if(isset($_POST["btnPresatamo"])){
 		//process
 		
 		$monto = pow((1 + $tasaInteres / 100), $tiempo) * $capital;
-		$interes = $monto - $capital;		
+		$interes = $monto - $capital;
+		
+		$arrDataPrestamo = array(
+		'capital' => $capital,
+		'tasaInteres' => $tasaInteres,
+		'tiempo' => $tiempo,
+		'monto' => $monto,
+		'interes' => $interes
+		);
+		json_encode($arrDataPrestamo); 
+		print_r($arrDataPrestamo);
 	}
 $p1->assign("capital",$capital);
 $p1->assign("tasaInteres",$tasaInteres);
 $p1->assign("tiempo",$tiempo);
 $p1->assign("interes",$interes);
 $p1->assign("monto",$monto);
+
+
 
 
 

@@ -9,7 +9,7 @@
 <p><strong>Note:</strong> The addEventListener() method is not supported in Internet Explorer 8 and earlier versions.</p>
 
 <p id="demo"></p>
-<form method="post" action="">
+<form method="post" action="" id="formAdd">
 	<table width="245" border="0">
 		<tr>
 			<td colspan="2">Problema 1 SUMA</td>
@@ -98,7 +98,8 @@
 			</td>
 		</tr>
 	</table>
-
+	</form>
+	<form method="post" action="" id="formAdd2">
 	<br>
 	<br>
 	<p>Prestamos a Empleados en @JamzGarcia Sorftware Comnpany </p>
@@ -136,6 +137,24 @@
 		</tr>
 	</table>
 </form>
+<div>
+ <title>Hola mundo con Vue.js</title>
+ <div id="app">
+
+    <h1>{{titulo}}</h1>
+
+    <ul>
+      <li v-for="fruta of frutas">
+        {{fruta.cantidad}} - {{fruta.nombre}}
+        <span v-if="fruta.cantidad === 0"> - Sin Stock</span>
+      </li>
+    </ul>
+
+</div>
+<p>Append con JS JSON_ENCODE</p>
+<div class="lista" id="lista">
+</div>
 <script src="js/CAPP/ventas.js"></script>
+<script src="js/CAPP/01.js"></script>
 </body>
 </html>
