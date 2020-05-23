@@ -16,3 +16,11 @@ var urlUsers = 'https://randomuser.me/api/?results=1';
 				}
 			}
 		});
+
+
+		var app3 = new Vue({
+			el: '#app-3',
+			data: {
+			  seen: true
+			}
+		  })

@@ -22,7 +22,7 @@
 		</tr>
 		<tr>
 			<td width="82">Numero 2</td>
-			<td width="153">
+ 			<td width="153">
 				<input name="txtn2" type="text" id="txtn2" value="{$txtn2}" size="10">
 			</td>
 		</tr>
@@ -138,22 +138,7 @@
 	</table>
 </form>
 <div>
- <title>Hola mundo con Vue.js</title>
- <div id="app">
 
-    <h1>{{titulo}}</h1>
-
-    <ul>
-      <li v-for="fruta of frutas">
-        {{fruta.cantidad}} - {{fruta.nombre}}
-        <span v-if="fruta.cantidad === 0"> - Sin Stock</span>
-      </li>
-    </ul>
-
-</div>
-<p>Append con JS JSON_ENCODE</p>
-<div class="lista" id="lista">
-</div>
 <script src="js/CAPP/ventas.js"></script>
 <script src="js/CAPP/01.js"></script>
 </body>

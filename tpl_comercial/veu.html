@@ -1,0 +1,16 @@
+ <title>Hola mundo con Vue.js</title>
+ <div id="app">
+
+    <h1>{{titulo}}</h1>
+
+    <ul>
+      <li v-for="fruta of frutas">
+        {{fruta.cantidad}} - {{fruta.nombre}}
+        <span v-if="fruta.cantidad === 0"> - Sin Stock</span>
+      </li>
+    </ul>
+
+</div>
+<p>Append con JS JSON_ENCODE</p>
+<div class="lista" id="lista">
+</div>
